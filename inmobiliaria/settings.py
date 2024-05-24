@@ -71,6 +71,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'inmobiliaria.wsgi.application'
 
+AUTH_USER_MODEL = 'app.Usuario'
+
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
